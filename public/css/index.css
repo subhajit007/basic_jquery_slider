@@ -1,0 +1,58 @@
+#slider {
+    width: 720px;
+    height: 400px;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 15%;
+}
+
+#slider .slides {
+    display: block;
+    width: 6000px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 720px;
+    height: 400px;
+}
+body{
+
+
+  background: -webkit-linear-gradient(90deg, #870000 10%, #190A05 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #870000 10%, #190A05 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #870000 10%, #190A05 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #870000 10%, #190A05 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #870000 10%, #190A05 90%); /* W3C */
+
+}
+.text-muted{
+    color: white;
+}
+
+.slide1 {background-image: url("http://red-team-design.com/wp-content/uploads/2011/01/css3-html5-logo-initial.png" );
+    background-color: #cccccc;
+background-repeat: no-repeat;
+background-size: 720px 400px;}
+
+.slide2{background-image: url("http://creative-punch.net/wp-content/uploads/2014/01/Logo-CSS3-520x245.jpg" );
+    background-color: #cccccc;
+background-repeat: no-repeat;
+background-size: 720px 400px;}
+.slide3{background-image: url("http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/03/angularjs.jpeg" );
+    background-color: #cccccc;
+background-repeat: no-repeat;
+background-size: 720px 400px;}
+.slide4 {background-image: url("http://bramus.github.io/ria-course-materials/assets/03/jquery_logo.png" );
+    background-color: #cccccc;
+background-repeat: no-repeat;
+background-size: 720px 400px;}
+.slide5 {background-image: url("http://www.molecularecologist.com/wp-content/uploads/2013/11/github-logo.jpg" );
+    background-color: #cccccc;
+background-repeat: no-repeat;
+background-size: 720px 400px;}
+s
